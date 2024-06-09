@@ -1,0 +1,190 @@
+.body-container{
+    color: rgb(0, 94, 122) ;    
+}
+
+button{
+    color: rgb(0, 94, 122);
+}
+.topic{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.sub-topic{
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.paragraph{
+    font-size: 1.5rem;
+}
+h1{
+    text-align: center;
+}
+.header{
+   position: sticky;
+   top: 0rem;
+   z-index: 4;
+   color: white !important;
+   
+}
+
+.body{
+    width: 100vw;
+    height: auto;
+}
+.landing{
+   
+    width: 100vw;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    font-size: 8rem; 
+    
+
+}
+.btn-browse{
+    border: 5px solid  rgb(0, 94, 122);
+    border-radius: 2rem;
+    width: 20rem;
+    
+   
+    
+
+}
+.landing img{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height:50rem;
+}
+.card-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.card-container .content{
+    
+    width: 50vw;
+    
+}
+.card-container .image{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 20rem;
+}
+.card-container img{
+    width: 50vw;
+    height: 20rem;
+}
+.style-image{
+    position: absolute;
+    display: flex;
+    
+    z-index: 1;
+    top: 10rem;
+}
+.style-image div:first-child{
+    margin-top: 65rem;
+}
+.style-image div:nth-child(2){
+    margin-top: 70rem;
+    margin-left: 75rem;
+}
+.style-image div:nth-child(3){
+    margin-top: 90rem;
+    margin-left: -35rem;
+  
+}
+.style-image div:nth-child(4){
+    margin-top: 140rem;
+    margin-left: 0rem;
+  
+}
+.style-image div:nth-child(5){
+    margin-top: 155rem;
+    margin-left: -80rem;
+  
+}
+
+.style-image  img{
+   
+    opacity: .5;
+    transform: rotate(-20deg);
+}
+.style-image div:nth-child(1) img{
+    width: 15rem;
+  
+}
+.style-image div:nth-child(2) img{
+    width: 8rem;
+    transform: rotate(180deg);
+  
+}
+.style-image div:nth-child(3) img{
+    width: 5rem;
+  
+}
+.style-image div:nth-child(4) img{
+    width: 25rem;
+    transform: rotate(180deg);
+  
+}
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-start{
+    justify-content: flex-start !important;
+}
+.flex-end{
+    justify-content: flex-end !important;
+}
+.round-border{
+    border: 1px solid rgb(10, 219, 20);
+    border-radius: 50%;
+}
+.width-height{
+    width: 20rem !important;
+    height: 20rem;
+}
+.video{
+    width: 80vw !important;
+    height: 70vh !important;
+}
+.card{
+   
+    display: flex;
+    gap: 1rem;
+   
+   
+}
+.card button{
+    margin-top: 2rem;
+    margin-left: 40rem;
+}
+
+.card div img{
+    width: 20rem;
+    height: 20rem;
+}
+.btn-course{
+    margin-top: 1rem;
+}
+.footer{
+    margin-top: 4rem;
+   
+    width: 100vw;
+    height: 10rem;
+    background-color: rgb(0, 94, 122);
+}

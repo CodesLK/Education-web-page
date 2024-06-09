@@ -1,0 +1,35 @@
+.header-container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    width: 100vw;
+    background-color: rgb(0, 94, 122);
+    color: white !important;
+    font-size: 1.5rem;
+}
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+
+}
+a{
+    text-decoration: none;
+    color: white !important;
+}
+input[type='radio']{
+    display: none;
+}
+input[type='radio']:hover+ .nav-label{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    
+}
+input[type='radio']:checked+ .nav-label{
+    border-bottom: 1px solid white;
+}
+.logo img{
+    width: 5rem;
+}
