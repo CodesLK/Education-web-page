@@ -1,6 +1,6 @@
 import React from 'react';
 import './component.css';
-import logo from '../Images/sliate.jpg';
+import logo from '../Images/sliate.png';
 
 export default function Header(){
     return(
